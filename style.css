@@ -1,0 +1,56 @@
+.clearfix::after{
+  clear: both;
+  display: table;
+  content: ""
+}
+
+header{
+  background: black;
+  height:150px;
+  font-size: 400%;
+  text-align: center;
+}
+
+.left-menu{
+  height: 300px;
+  width: 30%;
+  float: left;
+}
+
+img{
+  width:500px;
+  height: 300px;
+}
+
+.right-menu{
+   color: white;
+  box-sizing: inherit;
+  font-size:30%;
+}
+
+.content{
+  width: 70%;
+  background: black;
+  float: right;
+  height: 300px;
+  color: white;
+  font-size: 500%;
+  text-align: center;
+}
+
+footer{
+  background: black;
+  height: 500px;
+}
+
+header{
+  color: white;
+  font-size: 500%;
+}
+
+.main-footer{
+  box-sizing: inherit;
+  font-size: 200%;
+  color: white;
+}
+
